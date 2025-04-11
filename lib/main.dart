@@ -5,18 +5,20 @@ void main() => runApp(MaterialApp(
     appBar: AppBar(
       title: Text('My First App'),
       centerTitle: true,
-      backgroundColor: Colors.amber[400],
+      backgroundColor: Colors.blue,
     ),
     body: Center(
-      child: Image(
-        image: NetworkImage('https://images.unsplash.com/photo-1575936123452-b67c3203c357?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D'),
-      ),
+      child: Icon(
+        Icons.airport_shuttle,
+        color: Colors.blue,
+        size: 300.0,
+      )
     ),
     floatingActionButton: FloatingActionButton(
       onPressed: () {
       },
       child: Text('click'),
-      backgroundColor: Colors.amber[400],
+      backgroundColor: Colors.blue,
     ),
   ),
 ));
