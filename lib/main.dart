@@ -10,8 +10,8 @@ void main() => runApp(MaterialApp(
     body: Center(
       child: Icon(
         Icons.airport_shuttle,
-        color: Colors.blue,
-        size: 300.0,
+        color: Colors.yellow,
+        size: 100.0,
       )
     ),
     floatingActionButton: FloatingActionButton(
