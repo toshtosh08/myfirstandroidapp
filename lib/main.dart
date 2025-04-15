@@ -9,8 +9,8 @@ void main() => runApp(MaterialApp(
     ),
     body: Center(
       child: Icon(
-        Icons.airport_shuttle,
-        color: Colors.yellow,
+        Icons.account_tree_sharp,
+        color: Colors.lightBlue,
         size: 100.0,
       )
     ),
