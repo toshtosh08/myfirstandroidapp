@@ -9,7 +9,7 @@ void main() => runApp(MaterialApp(
     ),
     body: Center(
       child: Icon(
-        Icons.account_tree_sharp,
+        Icons.settings_input_component_sharp,
         color: Colors.lightBlue,
         size: 100.0,
       )
